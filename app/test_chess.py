@@ -140,7 +140,7 @@ st.sidebar.header("Controls")
 board_size = st.sidebar.slider("Select Board Size (n x n)", min_value=1, max_value=20, value=8)
 piece_type = st.sidebar.selectbox(
     "Select Chess Piece",
-    ("King", "Queen", "Rook", "Bishop", "Knight")
+    ("Rook", "Knight", "Bishop", "King", "Queen",)
 )
 st.sidebar.header("Color Customization")
 piece_color = st.sidebar.color_picker("Piece Color", "#000000")
